@@ -1,4 +1,8 @@
 package fiap.com.checkpointsecurity.repositories;
 
-public class TaskRepository {
+import fiap.com.checkpointsecurity.entity.Task;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface TaskRepository extends JpaRepository<Task,Integer> {
+
 }
